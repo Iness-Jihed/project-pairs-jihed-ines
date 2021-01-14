@@ -1,0 +1,29 @@
+body {
+	background-color: black;
+ 
+  text-align: center;
+}
+
+#roue{
+	display: inline-block;
+	width:50%;
+	height:50%;
+	transition: transform 10s 
+	cubic-bezier(.5,.1,.15,.1);
+	transform: rotate(0deg);
+	z-index:1;
+	pointer-events: none;
+}
+
+#fleche{
+	position: absolute;
+    left: 50%;
+	display: block;
+	width:5%;
+	height: auto;
+ z-index: 2
+}
+
+#bouton:hover,#bouton:focus{
+	background:red;
+}
