@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Help Human</title>
+	<title>My mouvies</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="style1.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -10,50 +10,47 @@
 <body>
 
 	<h1>login Here</h1>
+	<div class="loginbox">
 	<form>
-     <div class="loginbox">
+     
 	<img src="log.png"
 	class="log">
 		<p>Username</p>
 		<input id ="name1" type="text" name="" placeholder="Enter Username">
 		<p>Password</p>
 		<input id="pass1" type="Password" name="" placeholder="Enter Password">
-          <!-- <input  type="submit" name="" value="login" onclick="check()"> -->
-          <button id="btn1">login</button>
+          <input id="btn1" type="submit" name="" value="login" onclick="">
+          <!-- <button id="btn1">login</button> -->
 		
          </form>
           
 		<a href="#">Forget passord?</a><br>
-<div class="bottom-text" onclick="btnclicked()" >>
+<div class="bottom-text" onclick="" >
 	    <a href="#">Don't have account?Sign up</a>
 	</div>
 	</div>
-	<script>
-          	function btnclicked(){
-          		document.location.href="admin1.html";
-          	}
-          </script>
+	
 
 </div>
-<div class="login">
-    <form name='form-login'>
-
+<div class="loginbox1">
+    <form>
+    	<img src="log.png"
+	class="log">
         <h1>REGISTER</h1>
 
-        <label for="name">Email</label>
-        <input type="Username" id="name" placeholder="Username" required>
+        <p >Username</p>
+        <input id="name"type="text"  placeholder="Username" required>
 
-        <label for="pw">Password</label>
-        <input type="password" id= "pw" placeholder="Password" required>
+        <p >Password</p>
+        <input  id="pw"   type="Password"  placeholder="Password" required>
 
         <ul class="helper-text">
             <li class="length">Must be at least 8 characters long.</li>
             <li class="lowercase">Must contain a lowercase letter.</li>
-            <li class="uppercase">Must contain an uppercase letter.</li>
-            <li class="special">Must contain a number or special character.</li>
+           
         </ul>
-       <!--  <input id="rgstr_btn" type="submit" value="Register" onclick="store()"> -->
-       <button id="btn">register</button>
+        <input id="btn" type="submit" value="Register" onclick="">
+       <!-- <button id="btn">register</button> -->
 
     </form>
 </div>
