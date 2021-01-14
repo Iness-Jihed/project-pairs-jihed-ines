@@ -4,22 +4,20 @@
 	<meta charset="utf-8">
 	<title>Help Human</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-<script src="main1.js"></script>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <body>
-	<div class="loginbox">
-	
-	
 
-	<img src="log.png"
-	class="log">
 	<h1>login Here</h1>
 	<form>
-
-		<p>E-mail</p>
-		<input id ="name" type="text" name="" placeholder="Enter E-mail">
+     <div class="loginbox">
+	<img src="log.png"
+	class="log">
+		<p>Username</p>
+		<input id ="name1" type="text" name="" placeholder="Enter Username">
 		<p>Password</p>
-		<input id="pass" type="Password" name="" placeholder="Enter Password">
+		<input id="pass1" type="Password" name="" placeholder="Enter Password">
           <!-- <input  type="submit" name="" value="login" onclick="check()"> -->
           <button id="btn1">login</button>
 		
@@ -29,7 +27,7 @@
 <div class="bottom-text" onclick="btnclicked()" >>
 	    <a href="#">Don't have account?Sign up</a>
 	</div>
-	
+	</div>
 	<script>
           	function btnclicked(){
           		document.location.href="admin1.html";
@@ -43,12 +41,10 @@
         <h1>REGISTER</h1>
 
         <label for="name">Email</label>
-        <input type="email" id="name" placeholder="Username" required>
+        <input type="Username" id="name" placeholder="Username" required>
 
         <label for="pw">Password</label>
-        <input type="password"
-               id= "pw"
-               placeholder="Password" required>
+        <input type="password" id= "pw" placeholder="Password" required>
 
         <ul class="helper-text">
             <li class="length">Must be at least 8 characters long.</li>
@@ -61,7 +57,7 @@
 
     </form>
 </div>
-
+<script src="main1.js"></script>
 </body>
 </head>
 </html>
