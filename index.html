@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEFLIX</title>
+    <link rel="stylesheet" href="css/beflixCss.css">
+    <link rel="stylesheet" href="css/lightslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/lightslider.js"></script>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="logo.png">
+</head>
+<body>
+    <nav> 
+    <a href="#" class="logo">
+    <img src="official logo.png" alt="my logo">
+    </a>    
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Category</a></li>
+      <li><a href="#">Movies</a></li>
+      <li><a href="#">TV Shows</a></li>
+    </ul>
+    <div class="search">
+    <input type="text" placeholder="search...">
+    <i class="fas fa-search"></i>
+    </div>
+    </nav>
+    <section id="main">
+    <h1 class="showcase-heading">ShowCase</h1>
+    <ul id="autoWidth" class="cs-hidden">
+        <li class="item-a">
+        <div class="showcase-box">
+            <img src="image/logan.jpg" alt="logan">
+        </div> 
+      </li> 
+      <li class="item-b">
+        <div class="showcase-box">
+            <img src="image/john wick.jpg" alt="john wick">
+        </div> 
+      </li> 
+      <li class="item-c">
+        <div class="showcase-box">
+            <img src="image/harry potter 1.jpg" alt="harry potter">
+        </div> 
+      </li> 
+      <li class="item-d">
+        <div class="showcase-box">
+            <img src="image/la la land.jpg" alt="la la land">
+        </div> 
+      </li> 
+      <li class="item-e">
+        <div class="showcase-box">
+            <img src="image/queen of the gambit.jpg" alt="queen of gambit">
+        </div> 
+      </li>
+      <li class="item-f">
+        <div class="showcase-box">
+            <img src="image/lolita.jpg" alt="lolita">
+        </div> 
+      </li>
+      <li class="item-g">
+        <div class="showcase-box">
+            <img src="image/13 reason why.jpg" alt="13 reason why">
+        </div> 
+      </li> 
+      </ul>
+    </section>
+    <section id="latest">
+      <h2 class="latest-heading">Latest movies</h2>
+    </section>
+    <script>
+            $(document).ready(function() {
+        $('#autoWidth').lightSlider({
+            autoWidth:true,
+            loop:true,
+            onSliderLoad: function() {
+                $('#autoWidth').removeClass('cS-hidden');
+            } 
+        });  
+      });
+    </script>
+   
+</body>
+</html>
