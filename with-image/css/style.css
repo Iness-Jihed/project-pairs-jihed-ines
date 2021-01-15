@@ -1,6 +1,6 @@
 
 body{
-	background-color: white;
+	background-image:url("789.jpg")
 }
 input[type=text], select {
     width: 100%;
@@ -67,7 +67,7 @@ input[type=submit]:hover {
 
 .button.button-primary {
   color: #FFFFFF;
-  background: darkblue;
+  background: darkred;
 }
 .button.button-block{
 	width: 100%;
