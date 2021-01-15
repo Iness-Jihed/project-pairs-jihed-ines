@@ -7,27 +7,20 @@ jQuery(document).ready(function($){
 			text: 'images/walk.png',
 			value: 1,
 			message: "You can watch La Casa de Papel for free",
-			background: "darkblue",
+			background: "black",
 			
 		},
 		{
 			text: 'images/Casa.png',
 			value: 1,
 			message: "You can watch the Walking Dead for free",
-			background: "black",
+			background: "darkred",
 			
 		},
 		{
 			text: 'images/AVGD.png',
 			value: 1,
 			message: "You can watch the Avengers for free",
-			background: "darkblue",
-			
-		},
-		{
-			text: 'images/harry.png',
-			value: 1,
-			message: "You can watch harry Potter for free",
 			background: "black",
 			
 		},
@@ -35,14 +28,21 @@ jQuery(document).ready(function($){
 			text: 'images/5.png',
 			value: 1,
 			message: "You can watch Fast & Furious for free ",
-			background: "darkblue",
+			background: "darkred",
+			
+		},
+		{
+			text: 'images/harry.png',
+			value: 1,
+			message: "You can watch harry Potter for free"			,
+			background: "black",
 			
 		},
 		{
 			text: 'images/john.png',
 			value: 1,
 			message: "You can watch John Wick for free",
-			background: "black",
+			background: "darkred",
 			
 		}
 	],
@@ -61,10 +61,10 @@ jQuery(document).ready(function($){
 
 	inner: {
 		width: 15,
-		color: "black"
+		color: "DarkGrey"
 	},
 	marker: {
-		background: "black",
+		background: "gold",
 		animate: 1
 	},
 	
