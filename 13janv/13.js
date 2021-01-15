@@ -4,7 +4,7 @@ var bouton=document.querySelector("#bouton")
 var x=0
 
 var turnTheWheel=function(){
-	x=x+(Math.random()*360)+1440
+	x=x+(Math.random()*360)+1080
 	roue.style.webkitTransform="rotate("+x+"deg)";
 	console.log("hey")
 
