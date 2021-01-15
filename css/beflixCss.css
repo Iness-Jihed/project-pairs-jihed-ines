@@ -138,8 +138,22 @@ nav .menu li a:hover{
     margin: 0px;
 }
 
-
-
+.movies-heading h2{
+    font-weight: 400;
+    margin: 0px;
+    padding-left:5px 20px;
+    background-color: rgba(0,0,0,0.01);
+    border: 1px solid rgba(0,0,0,0.06);
+    font-size: 1.7rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    width: 100%;
+   
+}
+.movies-heading{
+    display: flex;
+    margin: 0px 2%;
+}
 
 
 

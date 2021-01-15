@@ -1,7 +1,8 @@
 
 $(document).ready(function(){
     $(".loginbox").hide();
-    $("#btn").click(function(){
+    $("#btn").on("click",function(e){
+        e.preventDefault();
         var name=$("#name").val();
         var pass=$("#pw").val();
         localStorage.setItem("name",name);
@@ -11,7 +12,7 @@ $(document).ready(function(){
     $(".loginbox").show();
        
 })
-  })         
+        
     
 //check and login 
 $("#btn1").click(function(check){
@@ -28,3 +29,4 @@ $("#btn1").click(function(check){
         window.location.href="../index1.html"
     }
 });
+ })  
