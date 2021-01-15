@@ -1,6 +1,6 @@
 
 body{
-	background-color: #ECEFF1;
+	background-color: white;
 }
 input[type=text], select {
     width: 100%;
@@ -67,7 +67,7 @@ input[type=submit]:hover {
 
 .button.button-primary {
   color: #FFFFFF;
-  background: #455a64;
+  background: darkblue;
 }
 .button.button-block{
 	width: 100%;
