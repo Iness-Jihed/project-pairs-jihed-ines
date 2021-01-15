@@ -6,15 +6,22 @@ jQuery(document).ready(function($){
 		{
 			text: 'images/walk.png',
 			value: 1,
-			message: "You can watch La Casa de Papel for free",
-			background: "black",
+			message: "You can watch the Walking Dead for free",
+			background: "white",
 			
 		},
 		{
 			text: 'images/Casa.png',
 			value: 1,
-			message: "You can watch the Walking Dead for free",
-			background: "darkred",
+			message:"You can watch La Casa de Papel for free" ,
+			background: "black",
+			
+		},
+		{
+			text: 'images/harry.png',
+			value: 1,
+			message: "You can watch harry Potter for free",
+			background: "white",
 			
 		},
 		{
@@ -25,24 +32,17 @@ jQuery(document).ready(function($){
 			
 		},
 		{
-			text: 'images/5.png',
-			value: 1,
-			message: "You can watch Fast & Furious for free ",
-			background: "darkred",
-			
-		},
-		{
-			text: 'images/harry.png',
-			value: 1,
-			message: "You can watch harry Potter for free"			,
-			background: "black",
-			
-		},
-		{
 			text: 'images/john.png',
 			value: 1,
 			message: "You can watch John Wick for free",
-			background: "darkred",
+			background: "white",
+			
+		},
+		{
+			text: 'images/5.png',
+			value: 1,
+			message: "You can watch Fast & Furious for free",
+			background: "black",
 			
 		}
 	],
@@ -61,10 +61,10 @@ jQuery(document).ready(function($){
 
 	inner: {
 		width: 15,
-		color: "DarkGrey"
+		color: "black"
 	},
 	marker: {
-		background: "gold",
+		background: "black",
 		animate: 1
 	},
 	
@@ -116,11 +116,14 @@ jQuery(document).ready(function($){
 		
 		
 		$('.wheel-with-image-spin-button:disabled').prop('disabled',false).text('Spin');
+	
 		
 	});
 	
 	
 	
-	
+		$("#btn").click(function(){
+	     location.href="../index1.html"
+         })
 	
 });
