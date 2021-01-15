@@ -181,6 +181,7 @@ nav .menu li a:hover{
     display: block;
     font-size: 600;
     display: -webkit-box;
+    max-width: 80%;
     -webkit-line-clamp:vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -190,6 +191,12 @@ nav .menu li a:hover{
 .movies-box:hover{
     transform: translateY(-10px);
     transform: all ease 0.2s;
+}
+#movies-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 
